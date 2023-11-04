@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*NAVBAR*/
+.navbar {
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+    .navbar p {
+        float: left;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #141414;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+body {
+    background-color: #474747;
+    color: #EDEDED;
+    font-family: 'Montserrat'
+}
+
+h1 {
+  font-family: 'Baskerville';
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Baskerville';
+}
+
+/*ABOUT ME*/
+.aboutme {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  
+}
+
+.aboutme h1 {
+    margin: 110px 0 0 110px;
+}
+
+.aboutme p {
+    margin: 0 0 0 110px;
+    width: 400px;
+}
+
+
+/*GENERAL STYLING*/
+.tussenruimtediv{
+    padding: 100px 0 0 0;
+    
+} 
+
+.hometitle{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.hometext{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0 50px 0;
+    margin: 0;
+}
+
+.homecontent {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+.homecontent h1{
+    font-size: 25px;
+}
+
+.homecontent a{
+    color: white;
+}
+
+.homecontent figure { 
+    
+    width: 25%;                   
+}
+
+.homecontent figure img {
+    height: 300px;  
+    width: 300px;
+    border-radius: 5%; 
+    box-shadow: black 0px 0px 10px; 
+    border: 5px solid #000000;        
+    
+}
+
+.homecontent figure img:hover{
+    border: 5px solid #95989A;       
+}
+
+
+
