@@ -175,6 +175,10 @@ h2 {
   margin: 200px 200px 0 0 ;
 }
 
+#introtext{
+  align-content: center;
+}
+
 
 .posters {
   display: grid;
