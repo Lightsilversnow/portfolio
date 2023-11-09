@@ -14,7 +14,7 @@ var navbar = ` <div class="navbar">
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="/products/product1.html">Product temp 1</a>
+                        <a href="/products/projectplan.html">Project plan</a>
                         <a href="/products/product2.html">Product temp 2</a>
                     </div>
                 </div>
