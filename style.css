@@ -162,3 +162,96 @@ header {
 
 
 
+
+h1 {
+  font-family: 'Baskerville';
+}
+
+h2 {
+  font-family: 'Baskerville ';
+}
+
+#fancy {
+  margin: 200px 200px 0 0 ;
+}
+
+
+.posters {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#silversnow {
+  padding: 50px;
+  justify-content: end;
+}
+
+
+.padding {
+    padding: 0 20% 0 20%;
+}
+
+.tussenruimte {
+    margin: 0 0 200px 0;
+}
+.kleinetussenruimte {
+    margin: 0 0 100px 0;
+}
+.minitussenruimte{
+    margin: 0 0 50px 0;
+}
+
+.progres {
+  display: flex;
+  height: 325px;
+  justify-content: center;
+  gap: 5%;
+}
+
+
+/* BUTTON */
+.button {
+    
+  border-radius: 4px;
+  background-color: #95989A;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer; /*Zorgt ervoor dat de cursor een pointer word als die erover komt*/
+}
+
+
+
+.button:hover span:after { 
+  opacity: 1;
+  right: 0;
+  
+}
+.button:hover{
+  animation: animatebutton 1s ;
+  animation-fill-mode: forwards;
+}
+
+
+/*Animatie*/
+@keyframes animatebutton {
+  
+  0% {
+      border-radius: 4px;
+  }
+  100% {
+      border-radius: 20px;
+  }
+}
+
+#knop {
+  text-decoration: none;
+  color: white;
+}
