@@ -27,7 +27,7 @@ var navbar = ` <div class="navbar">
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">
-                        <a href="/index.html"><b>Home</b></a>
+                        <a href="/index.html">Home</a>
                         <i class="fa fa-caret-down"></i>
                     </button>
                 </div>
