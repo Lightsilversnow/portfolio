@@ -4,7 +4,10 @@
 
 /*NAVBAR*/
 .navbar {
-    overflow: hidden;
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
   }
   
   .navbar a {
