@@ -76,8 +76,8 @@
 
 body {
     /*background-color: #474747;*/
-    background: rgb(177,177,177);
-    background: linear-gradient(180deg, rgba(177,177,177,1) 0%, rgba(68,68,68,1) 100%, rgba(55,55,55,1) 100%);
+    background: rgb(157,157,157);
+    background: linear-gradient(180deg, rgba(157,157,157,1) 0%, rgba(31,31,31,1) 100%, rgba(55,55,55,1) 100%);
     color: #EDEDED;
     font-family: 'Montserrat'
 }
