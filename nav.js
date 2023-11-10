@@ -16,6 +16,8 @@ var navbar = ` <div class="navbar">
                     <div class="dropdown-content">
                         <a href="/products/projectplan.html">Project plan</a>
                         <a href="/products/persona.html">Personas and user journeys</a>
+                        <a href="/products/persona.html">Ideation and storyboard</a>
+
                     </div>
                 </div>
 
