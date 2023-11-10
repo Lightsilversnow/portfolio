@@ -72,8 +72,12 @@
     display: block;
   }
 
+/*BODY*/
+
 body {
-    background-color: #474747;
+    /*background-color: #474747;*/
+    background: rgb(177,177,177);
+    background: linear-gradient(90deg, rgba(177,177,177,1) 0%, rgba(103,9,121,1) 100%, rgba(0,212,255,1) 100%);
     color: #EDEDED;
     font-family: 'Montserrat'
 }
