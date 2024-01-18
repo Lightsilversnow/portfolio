@@ -86,6 +86,11 @@ h1 {
   font-family: 'Baskerville';
 }
 
+h2 {
+  font-family: 'Baskerville';
+  font-size: 30px;
+}
+
 header {
     display: flex;
     justify-content: center;
