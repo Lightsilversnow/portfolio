@@ -17,8 +17,8 @@ var navbar = ` <div class="navbar">
                     <a href="/products/projectplan_port.html">Project plan</a>
                     <a href="/products/research_port.html">Research other portfolios</a>
                     <a href="/products/libraries.html">Research libraries</a>
-                    <a href="/products/design_port.html">Design document portfolio</a>
                     <a href="/products/c4_port.html">C4 model portfolio</a>
+                    <a href="/products/design_port.html">Design document portfolio</a>
                     <a href="/products/international.html">International week</a>
                 </div>
             </div>

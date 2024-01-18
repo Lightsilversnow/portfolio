@@ -180,6 +180,11 @@ h2 {
   font-family: 'Baskerville ';
 }
 
+h3 {
+  font-family: 'Baskerville';
+  font-size: 23px;
+}
+
 #fancy {
   margin: 200px 200px 0 0 ;
 }
